@@ -1,0 +1,82 @@
+body{
+	background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+	text-align: center;
+}
+
+#player-score{
+	float: left;
+	margin-left: 28%;
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+
+#npc-score{
+	float: right;
+	margin-right: 28%;
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+
+.score{
+	margin-bottom: 10%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.box{
+	text-align: center;
+}
+
+#reset{
+	width: 7%;
+	height: 5%;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 20%;
+    background-color: #4570cc;
+    border: 1px solid #4570cc;
+    color: white;
+}
+
+#reset:hover{
+	background-color: #253c6e;
+	border: 1px solid #253c6e;
+}
+
+#rock{
+	margin-right: 20%;
+}
+
+#rock:hover{
+	opacity: .4;
+}
+
+#paper{
+	margin-right: 20%;
+}
+
+#paper:hover{
+	opacity: .4;
+}
+
+#scissors:hover{
+	opacity: .2;
+}
+
+#outcome{
+	display: inline-block;
+	text-align: center;
+}
+
+.reset-box{
+	margin-top: 10%;
+}
